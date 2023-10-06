@@ -1,0 +1,107 @@
+/* Container for the form */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form heading */
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Radio buttons */
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* File input */
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* QR code container */
+  .qr-code-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* QR code image */
+  .qr-code-img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Two lines of text below QR code */
+  .qr-code-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+  
+  .upload-payment-text {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  span {
+    display: block;
+    margin: 15px;
+  }
+  
+  .input .file-upload-button {
+    margin-right: 15px;
+  }
+  
+  .entry-fee {
+    font-weight: bold;
+    font-size: 20px;
+  }
