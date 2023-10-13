@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './RegistrationForm.css';
-import qr from '.././images/qr.jpeg';
+import '../Styles/Home.css';
+
+
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ const RegistrationForm = () => {
 
   return (
     <div>
-      <h2>Register Here! Double Header Quiz presented by CalQulas!</h2>
+      <h2>Register Here! Double Header Quiz presented by CalQulus!</h2>
         <h3>Knowledge Partner: 5Point Education Centre & Business Unplugged</h3>
       <form onSubmit={handleSubmit}>
         <label>
@@ -90,7 +91,7 @@ const RegistrationForm = () => {
 
       <div>
         <h3>Payment Method:</h3>
-        <images src= {qr} alt="QR Code" />
+        <img src= "../../public/images/qr.jpeg" alt="QR Code" />
         <span>UPI ID: 9051879329@paytm</span>
         <span>A/c Number- 919051879329 </span> 
       </div>
